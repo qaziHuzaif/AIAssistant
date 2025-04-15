@@ -159,7 +159,7 @@ fun ChatPage(modifier: Modifier = Modifier, viewModel: ChatViewModel) {
     val messageList: List<Message> = viewModel.messageList
 
     Scaffold(
-        topBar = { AppHeader() },
+        topBar = { AppHeader(title = "Jarvis") },
         modifier = modifier
             .fillMaxSize(),
         containerColor = BgColor,
@@ -255,11 +255,11 @@ fun ChatMessageItem(message: Message) {
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
-fun AppHeader() {
+fun AppHeader(title: String) {
     TopAppBar(
         title = {
             Text(
-                text = "Assistant",
+                text = title,
                 fontSize = 24.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White,

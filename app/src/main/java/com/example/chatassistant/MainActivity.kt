@@ -14,7 +14,7 @@ class MainActivity : ComponentActivity() {
         val chatViewModel = ChatViewModel()
         setContent {
             ChatAssistantTheme(darkTheme = false) {
-                ChatPage(modifier = Modifier, viewModel = chatViewModel)
+                App(modifier = Modifier, chatViewModel = chatViewModel)
             }
         }
     }
