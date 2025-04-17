@@ -5,6 +5,7 @@ import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.ui.Modifier
+import com.example.chatassistant.chat_assistant.ChatViewModel
 import com.example.chatassistant.ui.theme.ChatAssistantTheme
 
 class MainActivity : ComponentActivity() {

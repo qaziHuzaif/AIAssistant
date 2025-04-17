@@ -1,4 +1,4 @@
-package com.example.chatassistant
+package com.example.chatassistant.chat_assistant
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
@@ -260,7 +260,7 @@ fun AppHeader(title: String) {
         title = {
             Text(
                 text = title,
-                fontSize = 24.sp,
+                fontSize = 28.sp,
                 fontWeight = FontWeight.Bold,
                 color = Color.White,
                 modifier = Modifier.padding(start = 8.dp, bottom = 4.dp)

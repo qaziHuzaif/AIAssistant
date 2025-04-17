@@ -1,4 +1,4 @@
-package com.example.chatassistant
+package com.example.chatassistant.chat_assistant
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
