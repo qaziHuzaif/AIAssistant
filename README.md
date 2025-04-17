@@ -34,6 +34,11 @@ This Android application integrates a chat assistant powered by Google's Gemini 
 *   **MVVM Architecture:** The app follows the Model-View-ViewModel architecture pattern, ensuring separation of concerns and maintainability of code.
 *   **Compose Animation:** Adds smooth and engaging animations to the user interface.
 
+
+![SVG Image](https://raw.githubusercontent.com/qaziHuzaif/AIAssistant/d6235e4d2e5b892ba0c0eb591c0739ac93c573fb/AI%20Assistant.svg?token=BI7FBCFTS47UC3FSRNYKSDLIADDDK)
+
+
+
 ## Getting Started
 
 1. **Clone the repository:**  
