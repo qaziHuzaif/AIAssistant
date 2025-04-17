@@ -1,4 +1,4 @@
-package com.example.chatassistant.chat_assistant
+package com.example.ai_assistant.chat_assistant
 
 data class Message(
     val message: String,

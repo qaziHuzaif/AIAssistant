@@ -1,8 +1,8 @@
-package com.example.chatassistant.chat_assistant
+package com.example.ai_assistant.chat_assistant
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Box
-import com.example.chatassistant.ui.theme.MainColor
+import com.example.ai_assistant.ui.theme.MainColor
 
 //
 //import androidx.compose.foundation.layout.Column
@@ -151,7 +151,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.chatassistant.ui.theme.BgColor
+import com.example.ai_assistant.ui.theme.BgColor
 
 @Composable
 fun ChatPage(modifier: Modifier = Modifier, viewModel: ChatViewModel) {

@@ -1,4 +1,4 @@
-package com.example.chatassistant
+package com.example.ai_assistant
 
 import androidx.compose.animation.core.Animatable
 import androidx.compose.animation.core.tween
@@ -26,8 +26,8 @@ import androidx.compose.ui.draw.scale
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavHostController
-import com.example.chatassistant.ui.theme.BgColor
-import com.example.chatassistant.ui.theme.MainColor
+import com.example.ai_assistant.ui.theme.BgColor
+import com.example.ai_assistant.ui.theme.MainColor
 
 @Composable
 fun Home(modifier: Modifier = Modifier, navController: NavHostController) {

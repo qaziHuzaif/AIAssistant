@@ -1,4 +1,4 @@
-package com.example.chatassistant.image_assistant
+package com.example.ai_assistant.image_assistant
 
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
@@ -36,10 +36,10 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.input.KeyboardCapitalization
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.chatassistant.Constants.IMAGE_ART_API_KEY
-import com.example.chatassistant.chat_assistant.AppHeader
-import com.example.chatassistant.ui.theme.BgColor
-import com.example.chatassistant.ui.theme.MainColor
+import com.example.ai_assistant.Constants.IMAGE_ART_API_KEY
+import com.example.ai_assistant.chat_assistant.AppHeader
+import com.example.ai_assistant.ui.theme.BgColor
+import com.example.ai_assistant.ui.theme.MainColor
 import okhttp3.Call
 import okhttp3.Callback
 import okhttp3.MultipartBody

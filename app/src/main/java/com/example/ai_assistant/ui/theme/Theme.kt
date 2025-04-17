@@ -1,6 +1,5 @@
-package com.example.chatassistant.ui.theme
+package com.example.ai_assistant.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme

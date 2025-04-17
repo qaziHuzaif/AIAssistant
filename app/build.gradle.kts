@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.chatassistant"
+    namespace = "com.example.ai_assistant"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.example.chatassistant"
+        applicationId = "com.example.ai_assistant"
         minSdk = 29
         targetSdk = 35
         versionCode = 1

@@ -1,9 +1,9 @@
-package com.example.chatassistant.chat_assistant
+package com.example.ai_assistant.chat_assistant
 
 import androidx.compose.runtime.mutableStateListOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.chatassistant.Constants.GEMINI_API_KEY
+import com.example.ai_assistant.Constants.GEMINI_API_KEY
 import com.google.ai.client.generativeai.GenerativeModel
 import com.google.ai.client.generativeai.type.content
 import kotlinx.coroutines.launch

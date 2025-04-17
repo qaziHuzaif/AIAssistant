@@ -1,4 +1,4 @@
-package com.example.chatassistant
+package com.example.ai_assistant
 
 object Screens {
     const val HOME = "home"

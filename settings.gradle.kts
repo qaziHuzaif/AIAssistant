@@ -19,6 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Chat Assistant"
+rootProject.name = "AI Assistant"
 include(":app")
  
